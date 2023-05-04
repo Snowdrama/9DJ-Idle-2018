@@ -1,0 +1,7 @@
+        Arcade
+    City
+        Camp
+Path
+        Cave
+    Forest
+        Desert

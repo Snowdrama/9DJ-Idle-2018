@@ -1,0 +1,31 @@
+                Streets
+            Casino
+                Hotel
+        City
+                Ball Pit
+            Arcade
+                Virtual World
+    Desert
+                Field
+            Hangliding
+                Island
+        Oasis
+                Sidewalk
+            Pool
+                Camp
+Path*
+                Volcano
+            Cave
+                Peak(Snowy)
+        Mountains
+                Outskirts
+            Town
+                Park
+    Forest*
+                Shrine
+            Ruins
+                Cliff
+        River
+                Jungle        
+            Beach
+                Ocean

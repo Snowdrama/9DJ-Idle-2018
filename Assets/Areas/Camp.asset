@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c70a97a046fb94abd37623384a2bb9, type: 3}
+  m_Name: Camp
+  m_EditorClassIdentifier: 
+  areaSlug: camp
+  icon: {fileID: 0}
+  background_1: {fileID: 21300000, guid: 53965b51892985e42a142c57ef14ce2e, type: 3}
+  background_2: {fileID: 21300000, guid: a05492a44e9c749468744702963f8292, type: 3}
+  background_3: {fileID: 21300000, guid: b09068c1a82b0e644a8c5999efb902d0, type: 3}
+  background_4: {fileID: 21300000, guid: f18cd67c7a414664b9ea065396c9bdb4, type: 3}
+  areaLength: 3600
+  encounterItterationTime: 600
+  chanceForEncounter: 50
+  finalArea: 1
+  northPath: {fileID: 0}
+  southPath: {fileID: 0}
+  events: []

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1335968449715038}
+  m_IsPrefabParent: 1
+--- !u!1 &1335968449715038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4068737446214272}
+  - component: {fileID: 114472812706927818}
+  - component: {fileID: 114176201776318130}
+  - component: {fileID: 114538998714442760}
+  m_Layer: 0
+  m_Name: _TimeAreaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4068737446214272
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335968449715038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114176201776318130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335968449715038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e5cfe19af67f343a2b75c12b7c9c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeData:
+    originalStartTime: 0
+    saveTime: 0
+    currentTime: 0
+  forceRestart: 0
+  elapsedTime: 0
+  saving: 0
+--- !u!114 &114472812706927818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335968449715038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e51b6149cf0ccd48b05490821314c6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  areaList:
+  - {fileID: 11400000, guid: 1c4fb4f039bf1d34c840011e2a79fc1b, type: 2}
+  - {fileID: 11400000, guid: 1521191e67b28cd44931fcd6b8837cb0, type: 2}
+  - {fileID: 11400000, guid: cf7a0ccddc20b3c479fad6cae97217c8, type: 2}
+  - {fileID: 11400000, guid: 4d327e057a45f8049baa7b76f0ddc12d, type: 2}
+  - {fileID: 11400000, guid: f2dfa56ddd91e1a4ba4e01d40ef7dea5, type: 2}
+  - {fileID: 11400000, guid: 4f1069444ff992f458b6dc2a75c40c29, type: 2}
+  - {fileID: 11400000, guid: 2c92b9b06a5b3c444b95c09728bbf4f8, type: 2}
+  standardEvents:
+  - eventScene: TreasureEvent
+  currentArea: {fileID: 11400000, guid: cf7a0ccddc20b3c479fad6cae97217c8, type: 2}
+  nextArea: {fileID: 0}
+  areaData:
+    areaSlug: path
+  travelData:
+    minTravelSpeed: 0
+    maxTravelSpeed: 1
+    currentTravelSpeed: 0
+    distanceTraveled: 0
+    totalDistanceTraveled: 0
+    distanceSinceEvent: 0
+  areaState: 0
+  nextAreaState: 0
+  hasEvent: 0
+  checkedForEvent: 0
+  chanceForEvent: 80
+  maxChanceForEvent: 90
+  eventTimeout: 0
+  eventName: 
+  travelModifier: 0
+  travelModifierScale: 0.1
+  eventAlert: {fileID: 8300000, guid: 9119fd584c427e74ab217058b36c982c, type: 3}
+  transitionFadeIn: {fileID: 8300000, guid: eb0ac8d49bde09943841da1d4e685933, type: 3}
+--- !u!114 &114538998714442760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335968449715038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45eb23b3136c8d242a216f3695818d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

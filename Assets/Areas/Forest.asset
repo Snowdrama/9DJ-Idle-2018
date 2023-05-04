@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c70a97a046fb94abd37623384a2bb9, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  areaSlug: forest
+  icon: {fileID: 0}
+  background_1: {fileID: 21300000, guid: 7a5217c88a036b04c84e906214f03186, type: 3}
+  background_2: {fileID: 21300000, guid: 2142189348a3cc84990d614d17aee99f, type: 3}
+  background_3: {fileID: 21300000, guid: d97d1ef819298e14394213151827159d, type: 3}
+  background_4: {fileID: 21300000, guid: f5e466ddf1963e2488bfc7ebd526b6b7, type: 3}
+  areaLength: 3600
+  encounterItterationTime: 600
+  chanceForEncounter: 50
+  finalArea: 0
+  northPath: {fileID: 11400000, guid: 4d327e057a45f8049baa7b76f0ddc12d, type: 2}
+  southPath: {fileID: 11400000, guid: 1c4fb4f039bf1d34c840011e2a79fc1b, type: 2}
+  events: []

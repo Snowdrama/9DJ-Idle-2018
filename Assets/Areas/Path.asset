@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c70a97a046fb94abd37623384a2bb9, type: 3}
+  m_Name: Path
+  m_EditorClassIdentifier: 
+  areaSlug: path
+  icon: {fileID: 0}
+  background_1: {fileID: 21300000, guid: 13c4a93655527d247bed32de74cd5ae3, type: 3}
+  background_2: {fileID: 21300000, guid: 7505ddde71fa05e46997c8e8a6696595, type: 3}
+  background_3: {fileID: 21300000, guid: 3b9ba41ac387f3742961686766a7ade2, type: 3}
+  background_4: {fileID: 21300000, guid: 00aa9c21a5cacd1469612a4987db935e, type: 3}
+  areaLength: 3600
+  encounterItterationTime: 600
+  chanceForEncounter: 50
+  finalArea: 0
+  northPath: {fileID: 11400000, guid: f2dfa56ddd91e1a4ba4e01d40ef7dea5, type: 2}
+  southPath: {fileID: 11400000, guid: 1521191e67b28cd44931fcd6b8837cb0, type: 2}
+  events: []
